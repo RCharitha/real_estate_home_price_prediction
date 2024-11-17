@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #100e0e;
+    background: url('image.jpg') 
+    no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(157, 150, 150, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-top: 0;
+}
+.bot{
+    background-color: rgba(135, 182, 211, 0.773);
+     color:black;
+}
+
+
+label {
+    font-weight: bold;
+    
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+}
